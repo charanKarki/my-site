@@ -7,6 +7,7 @@ h1 {
 }
 
 /* hover center under line effect  */
+
 .hvr-underline-from-center {
     display: inline-block;
     vertical-align: middle;
@@ -35,6 +36,7 @@ h1 {
 }
 
 /* under line reveal hover effect  */
+
 .hvr-underline-from-center:active:before,
 .hvr-underline-from-center:focus:before,
 .hvr-underline-from-center:hover:before {
@@ -44,7 +46,6 @@ h1 {
 
 .hvr-underline-reveal {
     display: -block;
-
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -79,8 +80,8 @@ h1 {
 }
 
 /* over line from center hover effect  */
-.hvr-overline-from-center {
 
+.hvr-overline-from-center {
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -113,6 +114,7 @@ h1 {
 }
 
 /* icon grow effect for icons */
+
 .hvr-icon-grow {
     display: inline-block;
     vertical-align: middle;
@@ -142,6 +144,7 @@ h1 {
 }
 
 /* sweep to bottom effect for social icons */
+
 .hvr-sweep-to-bottom {
     display: inline-block;
     vertical-align: middle;
@@ -301,7 +304,6 @@ header #svgpece {
     margin-top: 5vw;
 }
 
-
 /* #order #row {
     min-height: 30vw;
     background: darkgray;
@@ -324,7 +326,6 @@ footer .social .col {
     margin: auto 2vw auto 2vw;
     text-decoration: none;
     color: black;
-
 }
 
 /* footer i:nth-of-type(1):hover {
@@ -333,8 +334,6 @@ footer .social .col {
 
 } */
 
-
-
 footer hr {
     height: 3px;
     columns: black;
@@ -342,25 +341,22 @@ footer hr {
 
 footer i:nth-child(2):hover {
     animation: .5s forwards fadeSky;
-
 }
 
 footer i:nth-of-type(3):hover {
     animation: .5s forwards fadeRed;
-
 }
 
 footer i:nth-of-type(4):hover {
     animation: .5s forwards fadeDarkRed;
-
 }
 
 /* animations for social icons */
+
 @keyframes fadeBlue {
     from {
         color: black
     }
-
     to {
         color: rgb(6, 71, 192)
     }
@@ -370,7 +366,6 @@ footer i:nth-of-type(4):hover {
     from {
         color: black
     }
-
     to {
         color: rgb(23, 165, 231)
     }
@@ -380,7 +375,6 @@ footer i:nth-of-type(4):hover {
     from {
         color: black
     }
-
     to {
         color: rgb(196, 15, 60)
     }
@@ -390,7 +384,6 @@ footer i:nth-of-type(4):hover {
     from {
         color: black
     }
-
     to {
         color: rgb(151, 15, 15)
     }
@@ -400,40 +393,29 @@ footer i:nth-of-type(4):hover {
     * {
         font-size: 2vh;
     }
-
-
-
     h1 {
         font-size: 20px !important;
     }
-
     nav img {
         width: 4vh;
     }
-
     header #svgpece {
         display: none;
     }
-
     header {
         background-size: 100%;
     }
-
     #imgSection {
         position: static;
     }
-
     #imgSection #bg-img {
         display: none
     }
-
     #images {
         position: static;
         padding: 50px;
         margin: 10vw;
-
     }
-
     #order .order-heading {
         font-size: 4vw !important;
         padding: 3px;
@@ -444,21 +426,16 @@ footer i:nth-of-type(4):hover {
     i {
         font-size: 4vw;
     }
-
     nav img {
         width: 4vh;
     }
-
     header {
         height: 300px;
-        background-image: linear-gradient(180deg, #11998e, #38ef7dcc, #38ef7d 70%),
-            url("./img/apple-business-computer-39284\ \(1\).jpg");
+        background-image: linear-gradient(180deg, #11998e, #38ef7dcc, #38ef7d 70%), url("./img/apple-business-computer-39284\ \(1\).jpg");
         background-repeat: no-repeat;
         margin-bottom: 50px;
     }
-
     header #svgbg {
         display: none;
     }
-
 }
