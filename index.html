@@ -1,187 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <title>Title</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- my css file -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- icon file -->
+    <link rel="shortcut icon" href="./img/c logo.ico" type="image/x-icon" />
+    <!-- imagehover effect stylesheet -->
+    <link rel="stylesheet" href="./imagehover.min.css" />
+    <!-- fontawsome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+  </head>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous" />
-  <!-- my css file -->
-  <link rel="stylesheet" href="style.css" />
-  <!-- icon file -->
-  <link rel="shortcut icon" href="./img/c logo.ico" type="image/x-icon" />
-  <!-- imagehover effect stylesheet -->
-  <link rel="stylesheet" href="./imagehover.min.css" />
-  <!-- fontawsome cdn link -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-    crossorigin="anonymous" />
-</head>
+  <body>
+    <!-- navbar section -->
+    <nav
+      class="navbar navbar-expand-sm hvr-overline-from-center navbar-light  transparent"
+    >
+      <a class="navbar-brand" href="#"
+        ><img src="./img/c logo.svg" alt="" /> charan karki</a
+      >
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mr-4 mt-2 mt-lg-0">
+          <li class="nav-item mx-3 hvr-underline-from-center active">
+            <a class="nav-link hvr-icon-grow" href="#"
+              ><i class="fa fa-home  hvr-icon" aria-hidden="true"></i> Home
+              <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item hvr-underline-from-center mx-3">
+            <a class="nav-link hvr-icon-grow" href="#"
+              ><i class="fa fa-user hvr-icon" aria-hidden="true"></i> About</a
+            >
+          </li>
+          <li class="nav-item hvr-underline-from-center mx-3 dropdown">
+            <a class="nav-link hvr-icon-grow " href="#"
+              ><i class="fa fa-laptop-code  hvr-icon  "></i> services</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- header images section -->
+    <header>
+      <!-- <img id="curve" src="./img/curved.svg" alt="" /> -->
 
-<body>
-  <!-- navbar section -->
-  <nav class="navbar navbar-expand-sm  navbar-light  transparent">
-    <a class="navbar-brand" href="#"><img src="./img/c logo.svg" alt="" /> charan karki</a>
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
-    <div class="collapse navbar-collapse" id="collapsibleNavId">
-      <ul class="navbar-nav ml-auto mr-4 mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home
-            <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-user" aria-hidden="true"></i> About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link " href="#"><i class="fa fa-laptop-code    "></i> services</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- header images section -->
-  <header>
-    <!-- <img id="curve" src="./img/curved.svg" alt="" /> -->
+      <img id="svgbg" src="./img/svg bg-1.svg" alt="" />
+      <img id="svgpece" src="./img/webpece.svg" alt="" />
+    </header>
 
-    <img id="svgbg" src="./img/svg bg-1.svg" alt="" />
-    <img id="svgpece" src="./img/webpece.svg" alt="" />
-  </header>
+    <!--designers grid images section -->
 
-  <!--designers grid images section -->
+    <section id="imgSection">
+      <div id="bgImg"></div>
+      <h1 class="heading hvr-underline-from-center">Types of web designers</h1>
+      <div id="images" class="row  mx-auto align-items-center">
+        <div class="imghvr-slide-down col-sm-12 col-md-4 align-self-center">
+          <img src="./img/apple-business-computer-39284 (1).jpg" alt="" />
+          <figcaption>
+            <h1>UI designer</h1>
 
-  <section id="imgSection" class="row container-fluid mx-auto align-items-center">
-    <div class="imghvr-slide-down col-sm-12 col-md-4 align-self-center">
-      <img src="./img/apple-business-computer-39284 (1).jpg" alt="" />
-      <figcaption>
-        <h1>UI designer</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+              non!
+            </p>
+          </figcaption>
+        </div>
+        <div class="imghvr-slide-down col-sm-12 col-md-4 align-self-center">
+          <img src="./img/apple-business-computer-39284 (1).jpg" alt="" />
+          <figcaption>
+            <h1>UX designer</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+              non!
+            </p>
+          </figcaption>
+        </div>
+        <div class="imghvr-slide-down col-sm-12 col-md-4 align-self-center">
+          <img src="./img/apple-business-computer-39284 (1).jpg" alt="" />
+          <figcaption>
+            <h1>Full stack developer</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+              non!
+            </p>
+          </figcaption>
+        </div>
+      </div>
+    </section>
+    <!-- developers section ui,ux,full stack container -->
+    <section id="developer">
+      <div id="Uidesigner" class=" imghvr-push-right">
+        <img src="./img/abstract-business-code-270348.jpg" alt="" />
+        <figcaption>
+          <h1>UI designer</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+            non!
+          </p>
+        </figcaption>
+      </div>
 
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
-          non!
-        </p>
-      </figcaption>
-    </div>
-    <div class="imghvr-slide-down col-sm-12 col-md-4 align-self-center">
-      <img src="./img/apple-business-computer-39284 (1).jpg" alt="" />
-      <figcaption>
-        <h1>UX designer</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
-          non!
-        </p>
-      </figcaption>
-    </div>
-    <div class="imghvr-slide-down col-sm-12 col-md-4 align-self-center">
-      <img src="./img/apple-business-computer-39284 (1).jpg" alt="" />
-      <figcaption>
-        <h1>Full stack developer</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
-          non!
-        </p>
-      </figcaption>
-    </div>
-  </section>
-  <!-- developers section ui,ux,full stack container -->
-  <section id="developer">
-    <div id="Uidesigner" class=" imghvr-push-right">
-      <img src="./img/abstract-business-code-270348.jpg" alt="" />
-      <figcaption>
-        <h1>UI designer</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
-          non!
-        </p>
-      </figcaption>
-    </div>
+      <div id="Uxdesigner" class=" imghvr-push-right">
+        <img
+          src="./img/blur-blurred-background-cellphone-1092644 (1).jpg"
+          alt=""
+        />
+        <figcaption>
+          <h1>UI designer</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+            non!
+          </p>
+        </figcaption>
+      </div>
 
-    <div id="Uxdesigner" class=" imghvr-push-right">
-      <img src="./img/blur-blurred-background-cellphone-1092644 (1).jpg" alt="" />
-      <figcaption>
-        <h1>UI designer</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
-          non!
-        </p>
-      </figcaption>
-    </div>
-
-    <div id="FullStack" class=" imghvr-push-right">
-      <img src="./img/blur-business-computer-230544 (1).jpg" alt="" />
-      <figcaption>
-        <h1>UI designer</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
-          non!
-        </p>
-      </figcaption>
-    </div>
-  </section>
-  <!-- make your order section  -->
-  <section id="order">
-    <h1 class="order-heading">make your work done</h1>
-    <div id="row" class="row  justify-content-center align-items-center ">
-      <div class="col-sm-6 col-md-4 imghvr-push-down">
+      <div id="FullStack" class=" imghvr-push-right">
         <img src="./img/blur-business-computer-230544 (1).jpg" alt="" />
         <figcaption>
-          <h1>Static website</h1>
+          <h1>UI designer</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-            molestias!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+            non!
           </p>
-          <button class="btn btn-success">Click here</button>
         </figcaption>
       </div>
-      <div class="col-sm-6 col-md-4 imghvr-push-down">
-        <img src="./img/c logo.svg" alt="" />
-        <figcaption>
-          <h1>design logo</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-            molestias!
-          </p>
-          <button class="btn btn-success">Click here</button>
-        </figcaption>
+    </section>
+    <!-- make your order section  -->
+    <section id="order">
+      <h1 class="order-heading hvr-underline-from-center">
+        make your work done
+      </h1>
+      <div id="row1" class="row  justify-content-center align-items-center ">
+        <div class="col-sm-6 col-md-4 imghvr-push-down">
+          <img src="./img/blur-business-computer-230544 (1).jpg" alt="" />
+          <figcaption>
+            <h1>Static website</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              molestias!
+            </p>
+            <button class="btn btn-success">Click here</button>
+          </figcaption>
+        </div>
+        <div class="col-sm-6 col-md-4 imghvr-push-down">
+          <img src="./img/c logo.svg" alt="" />
+          <figcaption>
+            <h1>design logo</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              molestias!
+            </p>
+            <button class="btn btn-success">Click here</button>
+          </figcaption>
+        </div>
+        <div class="col-sm-6 col-md-4 imghvr-push-down">
+          <img src="./img/blur-business-computer-230544 (1).jpg" alt="" />
+          <figcaption>
+            <h1>make your full website</h1>
+            <h5>(front end with back end)</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              molestias!
+            </p>
+            <button class="btn btn-success">Click here</button>
+          </figcaption>
+        </div>
       </div>
-      <div class="col-sm-6 col-md-4 imghvr-push-down">
-        <img src="./img/blur-business-computer-230544 (1).jpg" alt="" />
-        <figcaption>
-          <h1>make your full website</h1>
-          <h5>(front end with back end)</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-            molestias!
-          </p>
-          <button class="btn btn-success">Click here</button>
-        </figcaption>
+      <div id="row1" class="row  justify-content-center align-items-center ">
+        <div class="col-sm-6 col-md-4 imghvr-push-down">
+          <img src="./img/blur-business-computer-230544 (1).jpg" alt="" />
+          <figcaption>
+            <h1>Static website</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              molestias!
+            </p>
+            <button class="btn btn-success">Click here</button>
+          </figcaption>
+        </div>
+        <div class="col-sm-6 col-md-4 imghvr-push-down">
+          <img src="./img/c logo.svg" alt="" />
+          <figcaption>
+            <h1>design logo</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              molestias!
+            </p>
+            <button class="btn btn-success">Click here</button>
+          </figcaption>
+        </div>
+        <div class="col-sm-6 col-md-4 imghvr-push-down">
+          <img src="./img/blur-business-computer-230544 (1).jpg" alt="" />
+          <figcaption>
+            <h1>make your full website</h1>
+            <h5>(front end with back end)</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              molestias!
+            </p>
+            <button class="btn btn-success">Click here</button>
+          </figcaption>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <h1>visit our social media pages</h1>
-    <div class="social row justify-content-center align-items-center">
-      <div class="col">
-        <i class="fab fa-facebook" aria-hidden="true"></i>
+    <footer>
+      <h1>visit our social media pages</h1>
+      <div class="social">
+        <hr>
+        <a class="col " href="#">
+          <i class="fab fa-facebook " aria-hidden="true"></i>
+        </a>
+        <a href="#" class="col"
+          ><i class="fab fa-twitter" aria-hidden="true"></i
+        ></a>
+        <a href="#" class="col">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="col"
+          ><i class="fab fa-youtube" aria-hidden="true"></i
+        ></a>
       </div>
-      <div class="col"><i class="fab fa-twitter" aria-hidden="true"></i></div>
-      <div class="col">
-        <i class="fab fa-instagram" aria-hidden="true"></i>
-      </div>
-      <div class="col"><i class="fab fa-youtube" aria-hidden="true"></i></div>
-    </div>
-  </footer>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script src="script.js"></script>
-</body>
-
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
