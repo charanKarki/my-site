@@ -158,12 +158,8 @@
 }
 
 .imghvr-slide-down figcaption {
-<<<<<<< HEAD
     /* transform: translateY(-100%) */
     
-=======
-    transform: translateY(-100%)
->>>>>>> 4d42c6d7fd7d32d81723a1959951c6904a45d674
 }
 
 .imghvr-slide-left figcaption {
