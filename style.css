@@ -408,7 +408,9 @@ footer i:nth-of-type(4):hover {
         font-size: 2vh;
     }
 
-
+#user{
+    display: none;
+}
 
     h1 {
         font-size: 20px !important;
