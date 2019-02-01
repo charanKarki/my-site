@@ -634,6 +634,10 @@ footer .social .link {
         width: 4vh;
     }
 
+    nav button i {
+        font-size: 3.5vh;
+    }
+
     header {
         background-attachment: scroll;
         height: auto;
@@ -657,7 +661,12 @@ footer .social .link {
         background: lightgray;
     }
 
+    #developer div {
+        height: 80vw;
+    }
 
-
+    #developer .carousel-caption {
+        height: 30vw !important;
+    }
 
 }
