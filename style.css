@@ -626,8 +626,8 @@ footer .social .link {
 }
 
 @media (max-width: 400px) {
-    i {
-        font-size: 4vw;
+    nav {
+        padding-top: 8px !important;
     }
 
     nav img {
