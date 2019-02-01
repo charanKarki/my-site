@@ -158,7 +158,8 @@
 }
 
 .imghvr-slide-down figcaption {
-    transform: translateY(-100%)
+    /* transform: translateY(-100%) */
+    
 }
 
 .imghvr-slide-left figcaption {

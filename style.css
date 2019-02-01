@@ -128,7 +128,6 @@ h1 {
 }
 
 /* hover center under line effect  */
-
 .hvr-underline-from-center {
     display: inline-block;
     vertical-align: middle;
@@ -157,7 +156,6 @@ h1 {
 }
 
 /* under line reveal hover effect  */
-
 .hvr-underline-from-center:active:before,
 .hvr-underline-from-center:focus:before,
 .hvr-underline-from-center:hover:before {
@@ -201,8 +199,8 @@ h1 {
 }
 
 /* over line from center hover effect  */
-
 .hvr-overline-from-center {
+
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -235,7 +233,6 @@ h1 {
 }
 
 /* icon grow effect for icons */
-
 .hvr-icon-grow {
     display: inline-block;
     vertical-align: middle;
@@ -265,7 +262,6 @@ h1 {
 }
 
 /* sweep to bottom effect for social icons */
-
 .hvr-sweep-to-bottom {
     display: inline-block;
     vertical-align: middle;
@@ -318,7 +314,7 @@ h1 {
 nav {
     position: fixed !important;
     top: 0;
-    z-index: 100;
+    z-index: 1000;
     width: 100%;
 }
 
@@ -340,6 +336,7 @@ header {
     width: 100%;
     position: relative !important;
     background: url("./img/apple-business-computer-39284\ \(1\).jpg");
+    background-attachment: fixed;
 }
 
 header #svgbg {
@@ -347,13 +344,26 @@ header #svgbg {
     /* opacity: .8; */
 }
 
-header #svgpece {
+
+#user {
     position: absolute;
-    bottom: 10vw;
-    right: 3vw;
-    width: 50%;
+    bottom: 5vw;
+    right: 0;
     z-index: 100;
-    transform: rotate(180deg);
+
+
+}
+
+#headjumbo {
+    text-align: center;
+    position: absolute;
+    top: 5vw;
+    left: 2vw;
+    background: #00000000
+}
+
+#headjumbo h1 {
+    text-transform: capitalize;
 }
 
 /* image section contains ros and columns of ux ui full stack */
@@ -385,12 +395,17 @@ header #svgpece {
 #images {
     position: absolute;
     top: 0vh;
-    left: auto;
+    /* left: auto; */
     padding: 50px;
     margin: 10vw;
     z-index: 100;
-    /* height: 100%; */
     background-color: #040f0867
+}
+
+#images div figcaption {
+    /* width: 90%; */
+    margin-right: 10px;
+    background: linear-gradient(rgb(13, 230, 165) 20%, rgba(0, 0, 0, 0.13))
 }
 
 /* developer section */
@@ -452,20 +467,23 @@ footer .social {
     font-size: 4vw;
 }
 
-footer .social .col {
-    margin: auto 2vw auto 2vw;
+footer .social .link {
+    /* margin: auto 2vw auto 2vw; */
     text-decoration: none;
     color: black;
+
 }
 
-/* footer i:nth-of-type(1):hover {
+footer i:nth-of-type(1):hover {
     animation: .5s forwards fadeBlue;
 
 
-} */
+}
+
+
 
 footer hr {
-    height: 3px;
+    /* height: 3px; */
     columns: black;
 }
 
@@ -479,10 +497,10 @@ footer i:nth-of-type(3):hover {
 
 footer i:nth-of-type(4):hover {
     animation: .5s forwards fadeDarkRed;
+
 }
 
 /* animations for social icons */
-
 @keyframes fadeBlue {
     from {
         color: black
@@ -528,6 +546,10 @@ footer i:nth-of-type(4):hover {
         font-size: 2vh;
     }
 
+    #user {
+        display: none;
+    }
+
     h1 {
         font-size: 20px !important;
     }
@@ -556,6 +578,7 @@ footer i:nth-of-type(4):hover {
         position: static;
         padding: 50px;
         margin: 10vw;
+
     }
 
     #order .order-heading {
@@ -575,7 +598,8 @@ footer i:nth-of-type(4):hover {
 
     header {
         height: 300px;
-        background-image: linear-gradient(180deg, #11998e, #38ef7dcc, #38ef7d 70%), url("./img/apple-business-computer-39284\ \(1\).jpg");
+        background-image: linear-gradient(180deg, #11998e, #38ef7dcc, #38ef7d 70%),
+            url("./img/apple-business-computer-39284\ \(1\).jpg");
         background-repeat: no-repeat;
         margin-bottom: 50px;
     }
@@ -583,4 +607,5 @@ footer i:nth-of-type(4):hover {
     header #svgbg {
         display: none;
     }
+
 }
