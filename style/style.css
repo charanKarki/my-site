@@ -354,9 +354,10 @@ header #svgbg {
     border-radius: 30px;
     position: fixed;
     z-index: 1000;
-    bottom: 4%;
-    right: 4%;
+    bottom: 4vw;
+    right: 4vw;
     font-size: 5vh;
+    color: lightslategray
 }
 
 #user {
