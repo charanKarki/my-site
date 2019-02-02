@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   // animation to jumbotron in header
   var demo = $("#headjumbo");
   TweenLite.from("#headjumbo", 1, {
@@ -7,8 +7,10 @@ $(document).ready(function() {
   });
 
   // scrolling event for navbar scroll
-  TweenLite.to(window, 2, { scrollTo: 400 });
-  window.addEventListener("scroll", function() {
+  TweenLite.to(window, 2, {
+    scrollTo: 400
+  });
+  window.addEventListener("scroll", function () {
     if (
       (scrollY >= 668 && window.innerWidth > 750) ||
       (scrollY >= 213 && window.innerWidth <= 750) ||
@@ -26,12 +28,20 @@ $(document).ready(function() {
         .addClass("transparent");
     }
 
-    $("#scroller").click(function() {
+    $("#scroller").click(function () {
       $(document).scrollTop(0);
     });
   });
   // carousel slider for order section
-  $(".owl-carousel").owlCarousel({
+
+  $("#owl1").owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplayHoverPause: true,
+    autoplay: true,
+    items: 1
+  });
+  $("#owl2").owlCarousel({
     loop: true,
     margin: 10,
     autoplayHoverPause: true,
@@ -47,4 +57,5 @@ $(document).ready(function() {
       }
     }
   });
+
 });

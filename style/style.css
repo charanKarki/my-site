@@ -393,67 +393,44 @@ header #svgbg {
 
 /* image section contains ros and columns of ux ui full stack */
 
-#bgImg {
-    /* position: absolute; */
-    background: url("../img/apple-business-computer-39284\ \(1\).jpg");
-    height: 100vh;
-    filter: blur(5px)
-}
 
 #imgSection {
-    position: relative;
-
+    margin-top: 10vw;
+    align-content: center;
     text-align: center;
-    margin: 10vh auto;
+
 }
 
 #imgSection .heading {
-    position: absolute;
+
     z-index: 101;
-    top: 5%;
+    top: 0;
     left: 0;
     width: 100%;
     background: lightgray;
-    /* margin-left: 25%; */
     color: rgb(11, 60, 100);
 }
 
-#images {
-    position: absolute;
-    top: 0;
-    left: auto;
-    padding: 50px;
-    margin: 10vw;
-    z-index: 101;
+#images img {
+    width: 100%;
+    height: auto;
 
-}
-
-#images div figcaption {
-    /* width: 90%; */
-    padding: 0;
-    margin: 0;
-    position: static;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgb(26, 26, 26))
 }
 
 /* developer section */
 #developer div {
     height: 40vw;
+    position: relative;
+    color: white;
 }
 
-#carouselId .carousel-caption {
-    height: auto !important;
-    width: 100%;
+#developer .caption {
+    position: absolute;
+    top: 20%;
     left: 0;
-    background: rgba(0, 0, 0, 0.4);
-
-}
-
-#carouselId img {
     width: 100%;
-    text-align: center;
+    background: rgba(0, 0, 0, 0.37);
 }
-
 
 
 /* for order section  */
@@ -483,8 +460,8 @@ header #svgbg {
 
 }
 
-#order #rows {
-    background: rgba(0, 0, 0, 0.555);
+#order #owl2 {
+    background: rgba(0, 0, 0, 0.822);
 }
 
 #order figcaption h1 {
@@ -503,7 +480,13 @@ header #svgbg {
 footer {
     height: 20vw;
     text-align: center;
-    background: lightgray;
+    background: #bdc3c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2c3e50, #bdc3c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     overflow: hidden;
 }
 
@@ -579,9 +562,7 @@ footer .social .link {
         background: rgb(71, 71, 71);
     }
 
-    #bgImg {
-        display: none;
-    }
+
 
     #imgSection .heading {
         top: 10px;
@@ -618,9 +599,7 @@ footer .social .link {
     }
 
 
-    #imgSection #bgImg {
-        display: none
-    }
+
 
     #imgSection .heading {
         font-size: 2rem !important
