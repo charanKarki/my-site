@@ -356,7 +356,9 @@ header #svgbg {
     z-index: 1000;
     bottom: 4vw;
     right: 4vw;
-    font-size: 5vh;
+    background: #2098D1;
+    /* padding: 2vw; */
+
     color: lightslategray
 }
 
