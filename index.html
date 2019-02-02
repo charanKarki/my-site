@@ -18,16 +18,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous" />
     <!-- my css file -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     <!-- icon file -->
     <link rel="shortcut icon" href="./img/c logo.ico" type="image/x-icon" />
     <!-- imagehover effect stylesheet -->
-    <link rel="stylesheet" href="./imagehover.min.css" />
+    <link rel="stylesheet" href="./style/imagehover.min.css" />
     <!-- fontawsome cdn link -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
       crossorigin="anonymous" />
-    <link rel="stylesheet" href="./owl.carousel.min.css">
-    <link rel="stylesheet" href="./owl.theme.default.min.css">
+    <link rel="stylesheet" href="./style/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl.theme.default.min.css">
 
   </head>
 
@@ -68,11 +68,16 @@
       <hr class="my-2">
       <p>Visit my blog</p>
       <p class="lead">
-        <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">My blog</a>
+        <button class="btn btn-primary btn-lg" role="button">My blog</button>
       </p>
     </div>
   </header>
-  <!-- developers section ui,ux,full stack container -->
+
+  <!-- button to scroll to top -->
+
+  <i id="scroller" class=" text-dark fa fa-arrow-alt-circle-up " aria-hidden="true"></i>
+
+  <!-- button to scroll to top -->
 
   <section id="developer">
     <div id="carouselId" class="carousel slide text-dark" data-ride="carousel">
@@ -251,9 +256,13 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-  <script src="./owl.carousel.js"></script>
-  <script src="./owl.carousel.min.js"></script>
-  <script src="script.js"></script>
+  <script src="./javascript/owl.carousel.js"></script>
+  <script src="./javascript/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/ScrollToPlugin.min.js"></script>
+  <script src="./javascript/script.js"></script>
+
 </body>
 
 </html>

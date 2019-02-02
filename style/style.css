@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
 /* loading bar for page loading  */
 .pace {
     -webkit-pointer-events: none;
@@ -335,7 +340,7 @@ nav .hvr-underline-from-center:before {
 header {
     width: 100%;
     position: relative !important;
-    background: url("./img/apple-business-computer-39284\ \(1\).jpg");
+    background: url("../img/apple-business-computer-39284\ \(1\).jpg");
     background-attachment: fixed;
 }
 
@@ -344,6 +349,15 @@ header #svgbg {
     /* opacity: .8; */
 }
 
+/* scroller effect btn */
+#scroller {
+    border-radius: 30px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 4%;
+    right: 4%;
+    font-size: 5vh;
+}
 
 #user {
     position: absolute;
@@ -360,12 +374,13 @@ header #svgbg {
     position: absolute;
     top: 5vw;
     left: 2vw;
+    opacity: 1;
     background: #00000000
 }
 
 #headjumbo h1 {
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 400
 }
 
@@ -377,7 +392,7 @@ header #svgbg {
 
 #bgImg {
     /* position: absolute; */
-    background: url("./img/apple-business-computer-39284\ \(1\).jpg");
+    background: url("../img/apple-business-computer-39284\ \(1\).jpg");
     height: 100vh;
     filter: blur(5px)
 }
@@ -445,7 +460,7 @@ header #svgbg {
     padding: 10vw;
     position: relative;
     text-align: center;
-    background: url("./img/img_22.jpg");
+    background: url("../img/img_22.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 
@@ -623,6 +638,10 @@ footer .social .link {
         font-size: 4vw !important;
         padding: 3px;
     }
+
+    footer .social i {
+        font-size: 3rem !important;
+    }
 }
 
 @media (max-width: 400px) {
@@ -669,4 +688,7 @@ footer .social .link {
         height: 30vw !important;
     }
 
+    footer .social i {
+        font-size: 2rem !important;
+    }
 }
