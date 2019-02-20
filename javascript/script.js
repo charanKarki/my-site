@@ -1,9 +1,13 @@
 $(document).ready(function () {
   // animation to jumbotron in header
-  var demo = $("#headjumbo");
   TweenLite.from("#headjumbo", 1, {
     top: 0,
     opacity: 0
+  })
+  TweenLite.from("#user", 1, {
+    right: -100,
+    opacity: 0,
+
   });
 
   // scrolling event for navbar scroll
@@ -37,7 +41,6 @@ $(document).ready(function () {
   $("#owl1").owlCarousel({
     loop: true,
     margin: 10,
-    autoplayHoverPause: true,
     autoplay: true,
     items: 1
   });
