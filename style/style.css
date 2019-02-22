@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 
+
 }
 
 /* loading bar for page loading  */
@@ -11,6 +12,7 @@ html {
 
 body {
     overflow-x: hidden;
+    background: rgb(209, 207, 207);
 }
 
 h1 {
@@ -240,7 +242,7 @@ header #svgbg {
     z-index: 1000;
     bottom: 4vw;
     right: 4vw;
-    background: #2098D1;
+    background: none;
     /* padding: 2vw; */
 
     color: lightslategray
@@ -279,9 +281,11 @@ header #svgbg {
 
 
 #imgSection {
-    margin-top: 10vw;
+    width: 80%;
+    margin: 10vw auto;
     align-content: center;
     text-align: center;
+
 
 }
 
@@ -301,6 +305,25 @@ header #svgbg {
 
 }
 
+#images figcaption {
+    position: absolute;
+    top: 0;
+    color: rgb(255, 253, 253);
+    background: rgba(31, 30, 30, 0.466);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#images h1 {
+    font-size: 1.5rem;
+    font-weight: 400
+}
+
+#images p {
+    font-size: .8rem;
+}
+
 /* developer section */
 #developer div {
     height: 40vw;
@@ -310,9 +333,12 @@ header #svgbg {
 
 #developer .caption {
     position: absolute;
-    top: 20%;
+    top: 0%;
     left: 0;
+    height: 100%;
     width: 100%;
+
+    text-align: center;
     background: rgba(0, 0, 0, 0.37);
 }
 
