@@ -342,6 +342,15 @@ header #svgbg {
 
 }
 
+#some-content {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 10;
+    width: 70vh;
+    border-radius: 5px;
+}
+
 /* developer section */
 #developer div {
     height: 40vw;
