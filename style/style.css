@@ -295,7 +295,7 @@ header #svgbg {
     top: 0;
     left: 0;
     width: 100%;
-    background: lightgray;
+    background: rgb(253, 251, 251);
     color: rgb(11, 60, 100);
 }
 
@@ -322,6 +322,24 @@ header #svgbg {
 
 #images p {
     font-size: .8rem;
+}
+
+/* stylish section */
+
+#stylish {
+    height: 80vh;
+    position: relative;
+}
+
+#styleimg {
+    height: 100%;
+
+    padding: 0;
+}
+
+#styleimg img {
+    height: 80vh;
+
 }
 
 /* developer section */
