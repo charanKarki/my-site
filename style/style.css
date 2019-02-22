@@ -342,10 +342,14 @@ header #svgbg {
 
 }
 
+#heading-content {}
+
 #some-content {
     position: absolute;
-    top: 100%;
+    top: 50%;
     left: 50%;
+    bottom: 0;
+    padding: 50px;
     z-index: 10;
     width: 70vh;
     /* border-radius: 5px; */
@@ -353,22 +357,27 @@ header #svgbg {
 
 /* developer section */
 #developer div {
-    height: 40vw;
+    /* height: 40vw; */
     position: relative;
     color: white;
 }
 
 #developer .caption {
+    padding: 19% 0;
     position: absolute;
-    top: 0%;
-    left: 0;
-    height: 100%;
-    width: 100%;
-
+    top: 5%;
+    right: 5%;
+    height: 80%;
+    width: 50%;
     text-align: center;
-    background: rgba(0, 0, 0, 0.37);
+    background: rgb(27, 27, 27);
 }
 
+
+#developer img {
+    height: 500px;
+    width: auto;
+}
 
 /* for order section  */
 
