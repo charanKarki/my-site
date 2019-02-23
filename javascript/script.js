@@ -61,23 +61,4 @@ $(document).ready(function () {
     }
   });
 
-
 });
-var googleMap = document.querySelector("#map");
-
-var location = {
-  lat: 29.048790161585814,
-  lng: 79.36875495249285
-}
-
-function initMap() {
-
-  var map = new google.maps.Map(googleMap, {
-    center: location,
-    zoom: 14
-  })
-  var marker = google.maps.Marker({
-    position: location,
-    map: map
-  })
-}
